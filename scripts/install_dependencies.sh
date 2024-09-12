@@ -8,4 +8,4 @@ unzip awscliv2.zip
 sudo ./aws/install
 
 
-aws s3 cp s3://demo-codepipeline-files /app.jar /home/ubuntu/app.jar
+aws s3 cp s3://demo-codepipeline-files/app.jar /home/ubuntu/app.jar
