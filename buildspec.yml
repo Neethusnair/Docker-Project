@@ -13,7 +13,7 @@ phases:
   post_build:
      commands:
         - echo "transfer the artifact..."
-        - aws s3 cp target/*.jar s3://demo-codepipeline-files /app.jar
+        - aws s3 cp target/*.jar s3://demo-codepipeline-files/app.jar
       # - command
 artifacts:
   files:
